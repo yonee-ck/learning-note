@@ -67,4 +67,5 @@ ex) this.innerHTML에서 this는 button (버튼 클릭시 버튼 안의 콘텐�
 ```
 
 > 출처: https://ko.javascript.info/introduction-browser-events
-
+> 
+> 참고: https://developer.mozilla.org/ko/docs/Web/Events
