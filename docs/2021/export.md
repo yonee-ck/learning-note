@@ -17,22 +17,6 @@ export { name1, name2, …, nameN };
 
 // 내보내면서 이름 바꾸기
 export { variable1 as name1, variable2 as name2, …, nameN };
-
-// 비구조화로 내보내기
-export const { name1, name2: bar } = o;
-
-// 기본 내보내기
-export default expression;
-export default function (…) { … } // also class, function*
-export default function name1(…) { … } // also class, function*
-export { name1 as default, … };
-
-// 모듈 조합
-export * from …; // does not set the default export
-export * as name1 from …;
-export { name1, name2, …, nameN } from …;
-export { import1 as name1, import2 as name2, …, nameN } from …;
-export { default } from …;
 ```
 
 ## 유명(named)과 기본(default) 내보내기
@@ -66,7 +50,8 @@ export default class { ... }
 
 ```js
 // test.js
-let k; export default k = 12;
+let k; 
+export default k = 12;
 ```
 ```js
 // 임의의 다른 파일
