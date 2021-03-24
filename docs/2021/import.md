@@ -28,3 +28,5 @@ var promise = import("module-name");
 내보낸 대상 중 가져올 것의 이름.
 ### aliasN
 가져온 유명 내보내기를 가리킬 이름.
+
+> 참조: https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Statements/import
