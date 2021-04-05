@@ -3,7 +3,7 @@
 다른 모듈에서 내보낸 바인딩을 가져올 때 사용한다.
 가져오는 모듈은 "use strict"의 존재 유무와 상관없이 무조건 엄격 모드
 
-** HTML 안에 작성한 스크립트에서는 import를 사용할 수 없다.
+** HTML 안에 작성한 스크립트 내 에서는 import를 사용할 수 없다.
 
 ```js
 import defaultExport from "module-name";
